@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+</head>
+<body><h1>LLR REGISTRATION FORM</h1>
+    <form action="main.py" >
+        <label for="01">NAME</label>
+    <input type="text" name="A" id="01" placeholder="ENTER NAME">
+    <br> 
+    <br>
+    <label for="02">AGE</label>
+<input type="number" name="B" id="02">
+<br>
+<br><label for="03">DATE OF BIRTH:</label>
+<input type="date" name="C" id="03" ><BR> <BR>
+
+    <input type="email" name="d" id="04" placeholder="enter email"><br><br>
+    <p>SELECT GENDER :</p>
+<input type="radio" name="e" id="05">
+<label for="05">MALE</label>
+<input type="radio" name="e" id="05">
+<label for="05">FEMALE</label> <BR><BR>
+    <p>SELECT TYPES OF VEHICLES</p>
+    <input type="checkbox" name="f" id="TWO WHEELER"><label for="Two WHEELER">TWO WHEELER</label>
+    <input type="checkbox" name="f" id="FOUR WHEELER"><label for="FOUR WHEELER">FOUR WHEELER</label>
+    <BR> <BR>
+        <p>SELECT CATEGORY:</p>
+        <select name="vehicles" id="l"
+         size="2" multiple>
+         <optgroup label="TWO WHEELER">
+         <option value="gr">TWO WH WITH GEAR</option>
+         <option value="nogr">TWO WH WITHout GEAR</option></optgroup>
+         <optgroup label="four WHEELER">
+         <option value="ygr">four WH WITH GEAR</option>
+         <option value="notgr">four WH WITHout GEAR</option>
+         </optgroup></select>
+         <br> <br><BR>
+         <button type="submit" >SUBMIT
+            </button>
+
+        
+
+
+    </form>
+</body>
+</html>
