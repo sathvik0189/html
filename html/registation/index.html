@@ -7,17 +7,20 @@
 </head>
 <body><h1>LLR REGISTRATION FORM</h1>
     <form action="main.py" >
-        <label for="01">NAME</label>
-    <input type="text" name="A" id="01" placeholder="ENTER NAME">
+        <label for="01">NAME*</label>
+    <input type="text" name="A" id="01" placeholder="ENTER NAME" required>
     <br> 
     <br>
-    <label for="02">AGE</label>
-<input type="number" name="B" id="02">
+    <label for="pwd">Password:</label><input type="password" name="password" minlength="6"  maxlength="8" id="pwd"
+    >
+    <br><label for="02">AGE</label>
+<input type="number" name="B" id="02" min="18" max="45" disabled>
 <br>
 <br><label for="03">DATE OF BIRTH:</label>
 <input type="date" name="C" id="03" ><BR> <BR>
+    <input type="hidden" name="batch" value="25">
 
-    <input type="email" name="d" id="04" placeholder="enter email"><br><br>
+    <input type="email" name="d" id="04" placeholder="enter email" pattern="'[A-Za-Z0-9]+@[A-Za-z]$+\.[a-z]{2,}"><br><br>
     <p>SELECT GENDER :</p>
 <input type="radio" name="e" id="05">
 <label for="05">MALE</label>
