@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&display=swap');
+
+.box
+{
+    height: 50vh;
+    width: 50vw;
+    background-color: brown;
+    font-size: 25px;
+}
+
+.image
+{
+    height: 500px;
+}
+a
+{
+background-color: aqua;
+height: 200px;
+}
+#para
+{
+    font-size: 2em;
+    font-family: "Jersey 10", sans-serif;
+}
+.cbox
+{
+    height: 50%;
+    width: 50%;
+    background-color: black;
+}
