@@ -1,0 +1,37 @@
+*
+{
+    box-sizing: border-box;
+
+}
+h1{
+    color: crimson;
+    text-align: center;
+}
+h5{
+    color: darkgray;
+    text-align:center
+}
+p{
+    color: darkgrey;
+    text-align: center;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    
+    background-color: aqua;
+    height: auto;
+    width: auto;
+    
+}
+button
+{
+
+background-color: darkslateblue;
+color: black;
+}
+button:hover
+{
+    background-color: brown;
+}
+
