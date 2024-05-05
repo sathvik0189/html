@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    --primary:dodgerblue;
+    scroll-behavior: smooth;
+
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    width: 100vw;
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+header
+{
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0px 50px;
+    
+}
+header .logo{
+    font-size: 40px;
+
+}
+header .logo span:nth-child(1)
+{
+    color:var(--primary);
+}
+header .menu ul
+{
+    display: flex;
+    gap: 30px;
+    font-size: 26px;
+}
+header .menu ul li{
+    list-style-type: none;
+}
+header .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+header .menu ul li:hover{
+    transform: scale(1.1);
+    
+}
+
+header .menu ul li a:hover{
+    color:var(--primary); 
+}
+#banner{
+    display: flex;
+    padding: 40px 40px;
+    align-items: center;
+    height:80vh;
+    background-color: lightseagreen;
+}
+#banner .left{
+    height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap:30px;
+}
+.left h2{
+    font-size: 60px;
+}
+.left h4{
+    font-size: 25px;
+}
+.left p{
+    text-align: justify;
+    font-size: 16px;
+    
+}
+
+.buttons{
+    display: flex;
+    gap:20px;
+
+}
+.buttons button:nth-child(1){
+    background-color: var(--primary);
+    color: white;
+}
+button{
+    border-radius:12px;
+    
+    border: 1px solid var(--primary);
+}
+button:hover{
+    transform:scale(1.5);
+}
+@media (max-width:480px) {
+header{
+    flex-direction:column;
+    gap:20px;
+}
+#banner{
+    flex-direction: column;
+    height: max-content;
+  }
+  #banner img{
+    width: 80vw;
+  }
+}
+#about{
+    background-color:lightseagreen ;
+    text-align: center;
+}
+#about p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 1.5;
+    
+}
+#about .heading h2{
+    text-align: center;
+    font-size: 60px;
+    
+}
+#about button{
+    border-radius: 12px;
+    align-items: center;
+}
+#about button:hover{
+
+    transform:scale(1.5) ;
+}
+#projects{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+    background-color:lightseagreen ;
+}
+#projects #project{
+    box-shadow: 5px 5px black;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+#projects #project img{
+    width: 200px;
+}
+ h2{
+    text-align: center;
+    font-size: 60px;
+    
+}
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color:lightseagreen ;
+}
+#contact input, textarea{
+ width: 100%;
+ border-radius: 10px;
+ height: 2rem;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+footer span{
+    color: var(--primary);
+}
+#contact .heading h2{
+    font-size: 60px;
+    text-align: center;
+    
+}
